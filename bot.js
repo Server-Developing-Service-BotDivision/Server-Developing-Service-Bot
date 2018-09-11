@@ -14,7 +14,7 @@ fs.readdir("./commands", (err, files) => {
 
 bot.on("ready", () => {
   bot.user.setActivity("Bot coming soon!")
-  console.log("IM ALIVE!")
+  console.log("I'm logged in.")
 });
 
 bot.on('message', message => {
